@@ -1,0 +1,43 @@
+Come creare un progetto in gitpod
+
+npm i -g @angular/cli
+
+Crea il progetto 
+ng new 
+
+directory del progetto 
+cd riva
+
+Crea un componente
+
+ng generate component
+
+apre il termianl 
+control shift o 
+
+Primo passo :
+installare l'angular cli
+  npm i -g @angular/cli@16
+Secondo passo:
+Crea il progetto 
+  ng new maps
+Terzo passo:
+Passare alla directory del progetto 
+ cd maps
+ cd maps2
+quarto passo:
+aggiungere bootstrap
+ ng add @ng-bootstrap/ng-bootstrap
+
+Quinto passo:
+Crea un componente
+    ng generate component nome-componente
+    o
+    ng g c nome-componente
+
+Sesto passo:
+ng serve --disable-host-check
+
+bash 
+ ps -a processi attivi 
+ sudo kill -9 nemero processo = uccide il processo 
